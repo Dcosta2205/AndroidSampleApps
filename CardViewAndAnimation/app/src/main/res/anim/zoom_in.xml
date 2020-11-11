@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <scale
+        android:duration="3000"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="4"
+        android:toYScale="4" />
+</set>
+
+    <!-- fillAfter = "true" will save the animated state after the animation is complete-->
+    <!-- pivotX = 50% , pivotY = 50% will zoom the view from the center position -->
+    <!-- fillAfter will retain the animated state of the object after the animation is complete -->

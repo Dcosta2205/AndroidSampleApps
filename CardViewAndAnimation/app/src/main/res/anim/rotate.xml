@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:duration="600"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/cycle_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:toDegrees="360" />
+</set>
+
+    <!-- repeatCount - how many time should the animation repeat , infinite will repeat it n number of times-->
+    <!-- repeatMode - should it repeat in the same direction as it started or the other way,
+          it can have values reverse -> Reverse the direction after every animation is complete,
+          restart -> repeat in the same direction-->

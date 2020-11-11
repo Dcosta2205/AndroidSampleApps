@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EditTextSample</string>
+    <string name="username_hint">Enter the username</string>
+    <string name="text_go">Go</string>
+</resources>

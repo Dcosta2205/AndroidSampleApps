@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WorkManager</string>
+    <string name="periodic_work">Periodic Work</string>
+</resources>

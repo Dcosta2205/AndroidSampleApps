@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Horizontal alignment using relative layout -->
+
+    <TextView
+        android:id="@+id/tvHelloWorld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_hello_world"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_12"
+        android:layout_toEndOf="@+id/tvHelloWorld"
+        android:text="@string/text_masai"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+    <!--  android:layout_toEndOf will place the view to the end/right of the specified view -->

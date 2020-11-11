@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Permissions</string>
+    <string name="req_location_permission">Req Location Permission</string>
+    <string name="req_contacts_permission">Req Contacts Permission</string>
+    <string name="req_contacts_and_storage_permission">Req Contacts and Storage Permission</string>
+    <string name="req_camera_permission">Req Camera Permission</string>
+</resources>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Handler_Looper_Threads_MessageQueue"

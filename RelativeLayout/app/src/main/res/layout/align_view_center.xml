@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- place the view at the center of parent layout -->
+    <TextView
+        android:id="@+id/tvCenterParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_parent_center"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <!-- place the view at the center of horizontal i.e center of x-axis-->
+
+    <TextView
+        android:id="@+id/tvCenterHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_center_horizontal"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <!-- place the view at the center of vertical i.e center of y-axis-->
+
+    <TextView
+        android:id="@+id/tvCenterVertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/text_center_vertical"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+</RelativeLayout>

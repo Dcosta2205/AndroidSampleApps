@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentFilters</string>
+    <string name="hey_intent_filter">Hey Custom Intent</string>
+</resources>

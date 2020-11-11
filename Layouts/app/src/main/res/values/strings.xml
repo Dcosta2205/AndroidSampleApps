@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LinearLayoutSample</string>
+    <string name="text_hello_world">Hello World!</string>
+    <string name="text_masai_school">Masai School</string>
+    <string name="text_Awesome">Awesome</string>
+    <string name="text_linear_layout">Linear Layout is</string>
+</resources>

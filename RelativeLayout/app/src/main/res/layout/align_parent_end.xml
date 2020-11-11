@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- place the view at the parent bottom -->
+
+    <TextView
+        android:id="@+id/tvParentBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/text_parent_bottom"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <!-- place the view at the parent end -->
+    <TextView
+        android:id="@+id/tvParentEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/text_parent_end"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+
+    <!-- place the view at the parent start -->
+    <TextView
+        android:id="@+id/tvParentStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/text_parent_start"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+    <!-- place the view at the parent bottom (right corner) -->
+
+    <!-- place the view at the parent end -->
+    <TextView
+        android:id="@+id/tvParentRightCorner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/text_parent_right_corner"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Frame Layout</string>
+    <string name="text_username">Enter Username</string>
+    <string name="text_click">Click</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="password">Password</string>
+</resources>

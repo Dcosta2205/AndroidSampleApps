@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SavingStateUsingBundles</string>
+    <string name="retain_text">Say Hi</string>
+</resources>
